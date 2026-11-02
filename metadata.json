@@ -1,0 +1,6 @@
+{
+  "name": "KOEL Control Engineering Dashboard & Management Portal (Ind. Marine)",
+  "description": "Enterprise Control Engineering Dashboard & Management Portal for KOEL Marine applications with Marine Design Specifications, Sub-project PLM workflow, ECN/ECR lifecycle, SOTR Excel generator, Sizing tools, and Admin governance.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
