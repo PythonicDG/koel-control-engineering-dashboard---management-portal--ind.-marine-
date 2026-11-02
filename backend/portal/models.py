@@ -47,7 +47,9 @@ class User(AbstractUser):
     def save(self, *args, **kwargs):
         if not self.id:
             self.id = _new_id("usr")
-        # Role is the single source of truth for privileges.
+        # Superusers (createsuperuser) are portal admins; role drives Django admin access.
+        if self.is_superuser:
+            self.role = "admin"
         self.is_staff = self.role == "admin"
         super().save(*args, **kwargs)
 

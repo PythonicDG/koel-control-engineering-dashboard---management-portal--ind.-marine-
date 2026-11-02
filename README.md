@@ -63,7 +63,7 @@ to start if one of them is already taken (it is easy to clash with another local
 
 **Change these (Admin Panel -> users) before using the portal for anything real**, or set
 `SEED_SAMPLE_DATA=False` in `backend/.env` to start with an empty database and create the first
-admin with `backend/.venv/Scripts/python backend/manage.py createsuperuser` (then set its `role` to `admin` in `/admin/`).
+admin with `backend/.venv/Scripts/python backend/manage.py createsuperuser`.
 
 ## How it works
 
